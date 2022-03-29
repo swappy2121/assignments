@@ -1,0 +1,55 @@
+
+
+read -p " select a number b/w 1-4 = " number
+
+
+
+itIsUnit = 1
+
+itIsTen = 2
+
+itIsHundred = 3
+
+uniT = 1
+
+teN = 10
+
+hunDred = 100  
+
+answer = 0
+
+diGit = 1
+
+
+ 
+if [ $number == $itIsUnit ]
+
+                then
+
+       answer=$((uniT*diGit))
+
+                   echo "this is a $answer"
+
+elif [ $number == $itIsTen ]
+
+then
+
+       answer=$((teN*diGit))
+
+                   echo "this is a $answer"
+
+
+elif [ $number == $itIsHundred ]
+
+then
+
+        answer=$((hunDred*diGit))
+
+                   echo "this is a $answer"
+
+else
+
+                   echo "Your Given Input Is Invalid , Please Check Again ..."
+
+                fi
+

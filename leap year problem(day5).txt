@@ -1,0 +1,22 @@
+	
+
+read -p "Enter a year b/w 2000-2003 : " number
+
+
+
+isLeapYear= 2000
+
+leapYear=4
+
+if [ $number == $isLeapYear ]
+
+                then
+
+                   echo "this is a leap year"
+
+else
+
+                   echo "this is not a leap year...."
+
+                fi
+

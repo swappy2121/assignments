@@ -1,0 +1,61 @@
+read -p "name of days b/w 1-7 : " number
+
+moNdaY=1
+tueSdaY=2
+wedNusDay=3
+thuRsdaY=4
+friDaY=5
+saTurDay=6
+suNdaY=7
+
+
+if [ $number == $moNdaY ]
+
+                then
+
+         echo "today is monday"
+
+
+elif [ $number == $tueSdaY ]
+
+                then
+
+         echo "today is tuesday" 
+
+
+elif [ $number == $wedNusDay ]
+
+                then
+
+         echo "today is wednusday"
+
+elif [ $number == $thuRsdaY ]
+
+                then
+
+         echo "today is thursday"
+
+elif [ $number == $friDaY ]
+
+                then
+
+         echo "today is  friday"
+
+elif [ $number == $saTurDay ]
+
+                then
+
+         echo "today is saturday"
+
+elif [ $number == $suNdaY ]
+
+                then
+
+         echo "today is sunday"
+
+else
+
+                   echo "given day is invalid"
+
+                fi
+
